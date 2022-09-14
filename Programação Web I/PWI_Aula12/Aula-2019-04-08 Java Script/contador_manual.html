@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<!--O script a seguir soma um número digitado no visor com o valor pré definido na função calc. Caso o visor inicie com um valor nulo,
+	ao clicar no botão up o visor ira mostrar o valor da função calc, e somar o com ele mesmo.-->
+	<script>
+		function calc(n){
+			<!--Se o visor iniciar com um valor que não seja nulo, a função calc irá adicionar um valor ao valor que foi digitado.-->
+			if(document.getElementById("resultado").value != ""){
+				document.getElementById("resultado").value = parseFloat(document.getElementById("resultado").value) + n;
+			}
+			<!--Caso contrário o valor que irá aparecer na tela será o que foi pré definido na função calc.-->
+			else{
+				document.getElementById("resultado").value = n;
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" name="up" value="up" onclick="calc(100)"><br><br>
+	<input type="text" name="resultado" id="resultado">
+<body>
+</html>

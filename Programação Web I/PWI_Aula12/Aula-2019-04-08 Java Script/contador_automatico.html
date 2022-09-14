@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<!--O programa a seguir inicia uma contagem regressiva automatica partindo do valor dez.-->
+	<script>
+		var counter = 10;
+		var intervalId = null;
+		
+		<!--O programa inicia na função start, a cada 1 segundo ele chama a função bip decrementando sempre 1 da variavel counter e quando a mesma variável chegar em 0 ele limpa a tela e chama a função finish, escrevendo "acabou!"-->
+		function finish(){
+			clearInterval(intervalId);
+			document.getElementById("bip").innerHTML = "Acabou!";
+		}
+		function bip(){
+			if(counter == 0) finish();
+			else{
+				document.getElementById("bip").innerHTML = counter + "segundos";
+			}
+			counter--;
+		}
+		function start(){
+			intervalId = setInterval(bip, 1000);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="start()">Iniciar contador</button>
+	<div id="bip"></div>
+<body>
+</html>

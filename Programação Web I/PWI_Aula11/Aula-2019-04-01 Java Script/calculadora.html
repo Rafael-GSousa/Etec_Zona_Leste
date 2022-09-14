@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Calculator</title>
+		<script src="js/funcoes3.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+	<center>
+		<table border="2" bgcolor="black">
+			<tr>
+				<th colspan="5"><input type="text" id="visor" name="visor"></th>
+			</tr>
+			<tr align="center">
+				<th><input class="geral" type="button" id="MC" name="MC" value="MC"></th>
+				<th><input class="geral" type="button" id="MR" name="MR" value="MR"></th>
+				<th><input class="geral" type="button" id="MS" name="MS" value="MS"></th>
+				<th><input class="geral" type="button" id="M+" name="M+" value="M+"></th>
+				<th><input class="geral" type="button" id="M-" name="M-" value="M-"></th>
+			</tr>
+			<tr align="center">
+				<th><input class="geral" type="button" id="←" name="←" value="←"></th>
+				<th><input class="geral" type="button" id="CE" name="CE" value="CE"></th>
+				<th><input class="geral" type="reset"  onclick="Clear()" id="C" name="C" value="C"></th>
+				<th><input class="geral" type="button" onclick="MaisMenos('')" id="±" name="±" value="±"></th>
+				<th><input class="geral" type="button" onclick="Calc('//')" id="√" name="√" value="√"></th>
+			</tr>
+			<tr align="center">
+				<th><input class="geral" type="button" onclick="Num(7)" id="num7" name="num7" value="7"></th>
+				<th><input class="geral" type="button" onclick="Num(8)" id="num8" name="num8" value="8"></th>
+				<th><input class="geral" type="button" onclick="Num(9)" id="num9" name="num9" value="9"></th>
+				<th><input class="geral" type="button" onclick="Calc('/')" id="divisao" name="divisao" value="/"></th>
+				<th><input class="geral" type="button" onclick="Porcento('0.01')" id="porcento" name="porcento" value="%"></th>
+			</tr>
+			<tr align="center">
+				<th><input class="geral" type="button" onclick="Num(4)" id="num4" name="num4" value="4"></th>
+				<th><input class="geral" type="button" onclick="Num(5)" id="num5" name="num5" value="5"></th>
+				<th><input class="geral" type="button" onclick="Num(6)" id="num6" name="num6" value="6"></th>
+				<th><input class="geral" type="button" onclick="Calc('*')" id="multiplicacao" name="multiplicacao" value="*"></th>
+				<th><input class="geral" type="button" id="1/x" name="1/x" value="1/x"></th>
+			</tr>
+			<tr align="center">
+				<th><input class="geral" type="button" onclick="Num(1)" id="num1" name="num1" value="1"></th>
+				<th><input class="geral" type="button" onclick="Num(2)" id="num2" name="num2" value="2"></th>
+				<th><input class="geral" type="button" onclick="Num(3)" id="num3" name="num3" value="3"></th>
+				<th><input class="geral" type="button" onclick="Calc('-')" id="subtracao" name="subtracao" value="-"></th>
+				<th rowspan="2"><input class="igual" type="button" onclick="Igual('=')" id="igual" name="igual" value="="></th>
+			</tr>
+			<tr align="center">
+				<th colspan="2"><input class="zero" type="button" onclick="Num(0)" id="num0" name="num0" value="0"></th>
+				<th><input class="geral" type="button" id="," name="," value=","></th>
+				<th><input class="geral" type="button" onclick="Calc('+')" id="adicao" name="adicao" value="+"></th>
+			</tr>	
+		</table>
+	</center>
+	</body>
+</html>
+

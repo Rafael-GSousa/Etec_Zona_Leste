@@ -1,0 +1,85 @@
+.cor_de_fundo{
+	background-color: #00ff00;
+}
+.cor_de_texto{
+	color: #f3f3f3;
+}
+.objeto{
+	width: 200px;
+	height: 200px;
+	background-color: #CCCCCC;
+}
+.retângulo{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	right: 200px;
+	bottom: 600px;
+	width: 800px;
+	height: 200px;
+	background-color: Black;
+}
+.quadrado{
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	right: 300px;
+	bottom: 300px;
+	width: 200px;
+	height: 200px;
+	background-color: #CCCCCC;
+}
+.círculo{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	right: 300px;
+	bottom: 200px;
+	width: 300px;
+	height: 300px;
+	background-color: #FFB90F;
+	border-radius: 100%;
+}
+.triângulo{
+	position: absolute;
+	top: 350px;
+	left: 350px;
+	right: 300px;
+	bottom: 300px;
+	width: 0px;
+	height: 0px;
+	border: 50px solid;
+	border-color: red blue yellow green;
+}
+.quadrado2{
+	position: absolute;
+	top: 300px;
+	left: 900px;
+	right: 300px;
+	bottom: 300px;
+	width: 200px;
+	height: 200px;
+	background-color: #CCCCCC;
+}
+.círculo2{
+	position: absolute;
+	top: 200px;
+	left: 800px;
+	right: 300px;
+	bottom: 200px;
+	width: 300px;
+	height: 300px;
+	background-color: #FFB90F;
+	border-radius: 100%;
+}
+.triângulo2{
+	position: absolute;
+	top: 350px;
+	left: 950px;
+	right: 300px;
+	bottom: 300px;
+	width: 0px;
+	height: 0px;
+	border: 50px solid;
+	border-color: red blue yellow green;
+}

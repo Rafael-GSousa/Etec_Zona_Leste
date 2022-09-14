@@ -1,0 +1,333 @@
+.quadrado{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadrado1{
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadrado2{
+	position: absolute;
+	top: 0px;
+	left: 160px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadrado3{
+	position: absolute;
+	top: 0px;
+	left: 240px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradov{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradov1{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradov2{
+	position: absolute;
+	top: 80px;
+	left: 160px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradov3{
+	position: absolute;
+	top: 80px;
+	left: 240px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradol{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradol1{
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradol2{
+	position: absolute;
+	top: 40px;
+	left: 200px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradol3{
+	position: absolute;
+	top: 40px;
+	left: 280px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradolv{
+	position: absolute;
+	top: 120px;
+	left: 40px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradolv1{
+	position: absolute;
+	top: 120px;
+	left: 120px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradolv2{
+	position: absolute;
+	top: 120px;
+	left: 200px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradolv3{
+	position: absolute;
+	top: 120px;
+	left: 280px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoa{
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradob{
+	position: absolute;
+	top: 160px;
+	left: 80px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoc{
+	position: absolute;
+	top: 160px;
+	left: 160px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradod{
+	position: absolute;
+	top: 160px;
+	left: 240px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoe{
+	position: absolute;
+	top: 200px;
+	left: 40px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradof{
+	position: absolute;
+	top: 200px;
+	left: 120px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradog{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoh{
+	position: absolute;
+	top: 200px;
+	left: 280px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoi{
+	position: absolute;
+	top: 240px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoj{
+	position: absolute;
+	top: 240px;
+	left: 80px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradok{
+	position: absolute;
+	top: 240px;
+	left: 160px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradom{
+	position: absolute;
+	top: 240px;
+	left: 240px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradon{
+	position: absolute;
+	top: 280px;
+	left: 40px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoo{
+	position: absolute;
+	top: 280px;
+	left: 120px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradop{
+	position: absolute;
+	top: 280px;
+	left: 200px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradoq{
+	position: absolute;
+	top: 280px;
+	left: 280px;
+	right: 0px;
+	bottom: 0px;
+	width: 40px;
+	height:40px;
+	background-color: #FFFFFF;
+}
+.quadradofundo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 320px;
+	height:320px;
+	background-color: #000000;
+}
+body{
+	background-color: blue;
+}

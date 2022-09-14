@@ -1,0 +1,17 @@
+.zero{
+	width: 70px;
+	height: 30px;
+}
+.igual{
+	width: 30px;
+	height: 65px;
+	
+}
+.geral{
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}

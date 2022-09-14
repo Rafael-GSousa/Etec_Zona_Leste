@@ -1,0 +1,48 @@
+﻿.quadradofundo{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	right: 0px;
+	bottom: 0px;
+	width: 1250px;
+	height:800px;
+	background-color: #CCCCCC;
+}
+.logo{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	right: 0px;
+	bottom: 0px;
+	width: 250px;
+	height:133px;
+	background-color: #CCCCCC;
+}
+.quadrado1{
+	position: absolute;
+	top: 183px;
+	left: 15px;
+	right: 0px;
+	bottom: 0px;
+	width: 245px;
+	height:200px;
+	background-color: #CCCCCC;
+}
+.carro{
+	position: absolute;
+	left: 260px;
+	right: 0px;
+	top: 180px;
+	bottom: 0px;
+	width: 750px;
+	height: 600px;
+	background-color: #CCCCCC;
+}
+.rodapé{
+	position: absolute;
+	left: 10px;
+	top: 780px;
+	width: 1250px;
+	height:50px;
+	background-color: #000000;
+}
